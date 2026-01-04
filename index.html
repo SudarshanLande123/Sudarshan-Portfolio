@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sudarshan Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="left">Sudarshan's Portfolio</div>
+        <ul>
+            <li><a data-target="home">Home</a></li>
+            <li><a data-target="about">About</a></li>
+            <li><a data-target="skills">Skills</a></li>
+            <li><a data-target="projects">Projects</a></li>
+            <li><a data-target="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- Home -->
+    <section id="home" class="firstSection">
+        
+        <div class="leftSection">
+            Hi, my name is <span class="purple">Sudarshan</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span><br>
+            <a href="assets/Sudarshan_resume.pdf" download class="btn">
+                Download Resume
+            </a> 
+            &nbsp;
+
+            <a href="https://github.com/sudarshanlande123"><button class="btn">Visit GitHub</button></a>
+        </div>
+
+        <div class="rightSection">
+            <img src="assets/sudarshan-img.jpeg" alt="Developer">
+        </div>
+    </section>
+
+    <!-- Skills -->
+<section id="skills" class="skills-section">
+    <h1>Skills</h1>
+    <p class="text-gray">Technologies and concepts I work with</p>
+
+    <div class="skills-scroll">
+
+        <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>Web Technologies</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React.js</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>Backend & Database</h3>
+            <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>Mysql</li>
+                <li>REST APIs</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>CS Fundamentals</h3>
+            <ul>
+                <li>DSA</li>
+                <li>OOPS</li>
+                <li>Operating Systems</li>
+                <li>DBMS</li>
+                <li>System Design</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>Tools & Platforms</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>VS Code</li>
+                <li>Postman</li>
+                <li>Render</li>
+                <li>Netlify</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- About -->
+    <section id="about" class="aboutSection">
+        <h1>About Me</h1>
+        <p class="about-text">
+            I am a passionate Full Stack Developer learning and building modern web applications.
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projectsSection">
+        <h1>Projects</h1>
+
+        <div class="projects">
+            <div class="project-card">
+                <h3>Wanderlust</h3>
+                <p>Full-stack travel listing app</p>
+                <a href="https://majorproject-wanderlust-2-vb82.onrender.com" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>React weather app using API</p>
+                <a href="https://weatherapllication.netlify.app/" target="_blank">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Simon Game</h3>
+                <p>JS-based memory game</p>
+                <a href="https://sudarshanlande123.github.io/Simons-Game/" target="_blank">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+    <h1>Contact Me</h1>
+    <p class="text-gray">Let’s connect and build something together</p>
+
+    <div class="contact-cards">
+
+        <!-- GitHub -->
+        <a href="https://github.com/sudarshanlande123" target="_blank" class="contact-card">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/sudarshan-lande-535a382a4/" target="_blank" class="contact-card">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+        </a>
+
+        <!-- Resume -->
+        <a href="assets/Sudarshan_resume.pdf" target="_blank" class="contact-card">
+            <i class="fa-solid fa-file"></i>
+            <span>Resume</span>
+        </a>
+
+        <!-- Coding Profile (Optional) -->
+        <a href="https://www.geeksforgeeks.org/profile/landesudapj27?tab=activity" target="_blank" class="contact-card">
+            <i class="fa-solid fa-code"></i>
+            <span>geeksforgeeks</span>
+        </a>
+
+    </div>
+</section>
+
+
+</main>
+
+<<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Branding -->
+        <div class="footer-brand">
+            <h3>Sudarshan Portfolio</h3>
+            <p>Full Stack Developer</p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Links -->
+        <div class="footer-social">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="https://github.com/sudarshanlande123" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sudarshan-lande-535a382a4/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Sudarshan Lande | All Rights Reserved
+    </div>
+</footer>
+
+
+<!-- Typed JS -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
