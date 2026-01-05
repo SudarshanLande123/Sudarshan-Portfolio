@@ -1,8 +1,12 @@
 // Typed text animation
 new Typed('#element', {
-    strings: ['Web Developer.'],
+    strings: ['Web Developer.', 'Full Stack Developer.'],
     typeSpeed: 45,
+    backSpeed: 25,
+    backDelay: 1200,
+    loop: true
 });
+
 
   
 
